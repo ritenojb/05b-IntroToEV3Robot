@@ -11,8 +11,11 @@ Authors: Dave Fisher, David Mutchler, Vibha Alangar,
 #   Using the DOT trick, add code to  make_sounds  to make the robot
 #   make sounds in various ways:  Beep, Tone, Speech, Song.
 # ------------------------------------------------------------------------------
-
+import rosebotics as rb
 def main():
+
+
+
     fun_song = [(392, 350, 100), (392, 350, 100), (392, 350, 100),
                 (311.1, 250, 100), (466.2, 25, 100), (392, 350, 100),
                 (311.1, 250, 100), (466.2, 25, 100), (392, 700, 100),
